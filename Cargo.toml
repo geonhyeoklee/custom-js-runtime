@@ -1,0 +1,9 @@
+[package]
+name = "custom_runtime"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+deno_core = "0.323.0"
+reqwest = "0.12.9"
+tokio = { version = "1.41.1", features = ["full"] }
